@@ -1,0 +1,332 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  "Inter","Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+button {
+    border: none;
+    outline: none;
+    display: block;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/* **************************************************************************** */
+
+
+/* START SECTION TWO */
+.btn-one{
+    background-color: #333;
+}
+.btn-one .content {
+    background-color: #000;
+    padding: 50px 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #777;
+}
+.btn-one .content button{
+    width: 150px;
+    padding: 12px 0;
+    margin: 15px;
+    border-radius:  15px 0 0 0;
+    cursor: pointer;
+    position: relative;
+    transition: 1s all ease-in-out;
+}
+.btn-one .content button a {
+    margin-right: 15px;
+}
+.btn-one .content button:first-child {
+    background-color: #34bf49;
+}
+.btn-one .content button:first-child:hover i {
+    background-color: #34bf49;
+    color: #fff;
+}
+.btn-one .content button:nth-child(2) {
+    background-color: #ffd900;
+}
+.btn-one .content button:nth-child(2):hover i {
+    background-color: #ffd900;
+    color: #fff;
+}
+.btn-one .content button:last-child {
+    background-color: #ed1c24;
+}
+.btn-one .content button:last-child:hover i {
+    background-color: #ed1c24;
+    color: #fff;
+}
+.btn-one .content button i {
+    position: absolute;
+    right: -25px;
+    background-color: #fff;
+    width: 50px;
+    padding: 13px 12px;
+    bottom: 0;
+    border-radius: 15px 15px 15px 0;
+    font-size: 20px;
+}
+/* // END SECTION TWO // */
+
+/* **************************************************************************************** */
+
+.btn-two {
+    background-color: #0c192c;  
+}
+.btn-two .container {
+    width: 40%;
+}
+.btn-two .content {
+    padding: 50px 100px;
+    background-color: #eee;
+    position: relative;
+    box-shadow: inset 0 0 10px #000;
+}
+.btn-two .content button{
+    background-color: #003f69;
+    text-transform: uppercase;
+    margin: 30px 0;
+    position: relative;
+    left: 100px;
+    padding: 5px 30px 5px 60px;
+    box-shadow:  0 0 10px #000;
+    transition: 0.5s all ease-in-out;
+}
+.btn-two .content button i {
+    top: 0;
+    left: 0;
+    padding: 15.5px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-two .content button:nth-child(2) {
+    left: 60px;
+}
+.btn-two .content a {
+    display: inline-block;
+    margin-left: 15px;
+}
+.btn-two .content button .one {
+    background-color: #d52685;
+}
+.btn-two .content button .two {
+    background-color: #00aaff;
+}
+.btn-two .content .three {
+    background-color: #f00a36;
+}
+.btn-two .content .four {
+    background-color: #fdbd10;
+}
+.btn-two .content .five {
+    background-color: #ff4816;
+}
+.btn-two .content button:first-child:hover {
+    background-color: #d52685;
+}
+.btn-two .content button:nth-child(2):hover {
+    background-color: #00aaff;
+}
+.btn-two .content button:nth-child(3):hover {
+    background-color: #f00a36;
+}
+.btn-two .content button:nth-child(4):hover {
+    background-color: #fdbd10;
+}
+.btn-two .content button:last-child:hover {
+    background-color: #ff4816;
+}
+/* /////////////////////////////////////////////////////////////////// */
+
+/* start btn-three */
+.btn-three {
+    background-color: #eee;
+}
+.icon {
+    text-align: center;
+}
+.icon i{
+    margin: 0 20px ;
+    font-size: 22px;
+    cursor: pointer;
+}
+.btn-three button {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: 0.5s all ease-in-out;
+}
+.btn-three i {
+    color: #fff;
+}
+.btn-three button i,a {
+    padding: 10px 12px;
+}
+.btn-three button i.left {
+    margin-right:10px ;
+    border-right: 2px dashed #fff;
+}
+.btn-three .icon i:first-child{
+    color: #ed4245;
+}
+.btn-three button:first-child{
+    background-color: #ed4245;
+}
+.btn-three .icon i:nth-child(3){
+    color: #0af167;
+}
+.btn-three button:nth-child(3){
+    background-color: #0af167;
+}
+.btn-three .icon i:nth-child(2){
+    color: #fee75c;
+}
+.btn-three button:nth-child(2){
+    background-color: #fee75c;
+}
+.btn-three button:last-child{
+    background-color: #f15d22;
+}
+.btn-three .icon i:hover,
+.btn-three button:hover {
+    transform: scale(2);
+    transition: 1s;
+}
+/* ********************************************************** */
+.btn-four {
+    background-color: #444444;
+}
+
+.btn-four button {
+    width: 180px;
+    position: relative;
+    padding: 10px;
+    text-transform: capitalize;
+    transition: 0.5s all ease-in-out;
+    margin: 30px 0;
+}
+.btn-four button a {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s all ease-in-out;
+    transition-delay: 0.20s;
+}
+.btn-four button i {
+    position: absolute;
+    right: -40px;
+    color: #fff;
+    padding: 10.5px 12px;
+    top: 0;
+    font-size: 18px;
+}
+.btn-four button i.fa-user{
+    background-color: #008bcf;
+}
+.btn-four .content a.one {
+    color: #008bcf;
+}
+.btn-four button i.fa-paper-plane{
+    background-color: #a560e8;
+}
+.btn-four a.two {
+    color: #a560e8;
+}
+.btn-four button i.fa-comment-dots{
+    background-color: #ff8000;
+}
+.btn-four button a.three {
+    color: #ff8000;
+}
+.btn-four button i.fa-table-list{
+    background-color: #2dbe60;
+}
+.btn-four button a.four {
+    color: #2dbe60;
+}
+.btn-four .icon i{
+    background: linear-gradient(180deg, #777 , #eee);
+    padding: 10px;
+    font-size: 14px;
+    margin: 20px 15px;
+    color: #f54785;
+}
+.btn-four button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+.btn-four button:first-child:before{
+    background-color: #008bcf;
+}
+.btn-four button:nth-child(2):before {
+    background-color: #a560e8;
+}
+.btn-four button:nth-child(3):before{
+    background-color: #ff8000;
+}
+.btn-four button:last-child:before{
+    background-color: #2dbe60;
+}
+.btn-four button:hover::before{
+    width: 100%;
+}
+.btn-four button:hover a{
+    color: #fff !important;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
